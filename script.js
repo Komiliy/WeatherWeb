@@ -1,6 +1,6 @@
 function getWeather() {
 
-    const apiKey = '82c2060680961b8f8fd9417c9ecafc3d';
+    const apiKey = 'Your API';
     const city = document.getElementById('city').value;
 
     if (!city) {
@@ -110,4 +110,5 @@ function showImage(){
     weatherIcon.style.display = 'lock';
 
 }
+
 
